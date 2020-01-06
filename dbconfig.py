@@ -1,5 +1,5 @@
 mysql={
-    'host': 'host',
+    'host': 'localhost',
     'user': 'root',
     'password': 'root',
     'database': 'datarepresentation2'
