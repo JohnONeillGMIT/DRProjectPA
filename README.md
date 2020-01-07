@@ -1,5 +1,5 @@
 # DRProjectPA
-Effort to get the Data Representation Project up to Python Anywhere
+
 
 Project Data:
 
@@ -19,7 +19,7 @@ https://github.com/JohnONeillGMIT/DRProject.git
 
 https://github.com/JohnONeillGMIT/dataRepresentation.git
 
-PythonAnywhwere: Not fully up and running… http://johnoneillgmit.pythonanywhere.com/
+PythonAnywhwere: Not up and running… http://johnoneillgmit.pythonanywhere.com/
 
 + SQL Database: datarepresentation2 
 + Table: empldirectory
