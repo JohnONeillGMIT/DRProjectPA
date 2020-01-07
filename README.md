@@ -41,7 +41,7 @@ mysql> mysql> CREATE TABLE empldirectory (
     
 
 ### Schema here
-![](images/schema)
+![](images/schema.png)
 
 Just in case it fails for some reason!!... I had it all working locally… updating HTML and in SQL concurrently with no issues in any of the CRUD.
 
