@@ -45,29 +45,29 @@ mysql> mysql> CREATE TABLE empldirectory (
 
 Just in case it fails for some reason!!... I had it all working locally… updating HTML and in SQL concurrently with no issues in any of the CRUD.
 
-![](images/html1)
+![](images/html1.png)
 
 ### Curl Operations… to demonstrate CRUD operations from Server2.py
 
 #### Get All :   curl http://127.0.0.1:5000/empldirectory
 
-![](images/getall)
+![](images/getall.png)
 
 #### FindByID:   curl http://127.0.0.1:5000/empldirectory/10001
 
-![](findbyid)
+![](images/findbyid.png)
 
 #### Create:	curl -i -H "Content-Type:application/json" -X POST -d "{\"first_name\":\"Dave\",\"surname\":\"Evans\",\"Ext\":\"100104\"}" http://127.0.0.1:5000/empldirectory
 
-![](create)
+![](images/create.png)
 
 #### Update: #curl -i -H "Content-Type:application/json" -X PUT -d "{\"first_name\":\"a\"}" http://localhost:5000/empldirectory/10005
 
-![](update)
+![](images/update.png)
 
 #### Delete: curl -X DELETE http://localhost:5000/empldirectory/10008
 
-![](delete)
+![](images/delete.png)
 
 
 
@@ -76,12 +76,12 @@ Just in case it fails for some reason!!... I had it all working locally… updat
 #### Create: 
 
 
-![](createhtml)
-![](html1)
+![](images/createhtml.png)
+![](images/html1.png)
 
 
 #### Update
-![](htmlupdate)
+![](images/htmlupdate.png)
 
 
 
