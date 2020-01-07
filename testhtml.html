@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>test the server</title>
+</head>
+<body> this is just a test</body>
+<script>
+host = window.location.origin
+    $.ajax({
+        "url": host+"/empl/1",
+        "method": "GET",
+        "data":"",
+        "datatype": "HTML",
+        "success": function (result){
+            console.log(result);
+        },
+        "error": function (xhr, status, error){
+            console.log("error: " + status + "msg:" + error);
+        }
+    });
+</script>
+</html>
